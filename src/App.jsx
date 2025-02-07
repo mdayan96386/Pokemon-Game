@@ -6,7 +6,7 @@ import PokemonImage from "./components/PokemonImage";
 import PokemonInput from "./components/PokemonInput";
 import GameOverScreen from "./components/GameOverScreen";
 
-const MAX_POKEMON = 898;
+const MAX_POKEMON = 151;
 
 const App = () => {
   const { state, dispatch } = useContext(GameContext);
